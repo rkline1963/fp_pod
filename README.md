@@ -4,3 +4,5 @@ fp_pod.py looks for a config file fp.conf in the current directory and based on 
 feed in the fp.conf file to a different directory for each feed under the podcasts subdirectory of the current directory
 if the directory for the feed doesn't exist, it will be created. There is some trapping of errors and it prints diagnostic
 messages to standard output as it runs.
+
+Dependencies: feedparser, time, pathlib modules (also subprocess and sys which should already be installed)
